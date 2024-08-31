@@ -1,9 +1,5 @@
-defmodule HelloWeb.HelloHTML do
-  use HelloWeb, :html
+defmodule StockvaluationWeb.HelloHTML do
+  use StockvaluationWeb, :html
 
-  def index(assigns) do
-    ~H"""
-    Hello!
-    """
-  end
+  embed_templates "hello_html/*"
 end

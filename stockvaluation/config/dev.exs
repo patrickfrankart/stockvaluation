@@ -23,7 +23,7 @@ config :stockvaluation, StockvaluationWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "hbffuAw+FuFMIWxo2QrTFN4e9Sny5htDDz3aEtBi8+fLbXEXEAwVRoK/KSfy0l6f",
+  secret_key_base: "51zGLjUB9tXwKJoNpytL+4WQduAhRPJMy82pyO2zmtZJGKShNRpyc2sGvodAmq1B",
   watchers: [
     esbuild: {Esbuild, :install_and_run, [:stockvaluation, ~w(--sourcemap=inline --watch)]},
     tailwind: {Tailwind, :install_and_run, [:stockvaluation, ~w(--watch)]}

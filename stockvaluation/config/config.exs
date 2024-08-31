@@ -20,7 +20,7 @@ config :stockvaluation, StockvaluationWeb.Endpoint,
     layout: false
   ],
   pubsub_server: Stockvaluation.PubSub,
-  live_view: [signing_salt: "skMteLND"]
+  live_view: [signing_salt: "3RWvZ5j/"]
 
 # Configures the mailer
 #

@@ -7,7 +7,7 @@ defmodule StockvaluationWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_stockvaluation_key",
-    signing_salt: "EZb0Dzsv",
+    signing_salt: "wK2aqn35",
     same_site: "Lax"
   ]
 

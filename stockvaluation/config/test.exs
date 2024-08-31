@@ -17,7 +17,7 @@ config :stockvaluation, Stockvaluation.Repo,
 # you can enable the server option below.
 config :stockvaluation, StockvaluationWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "fs+PImVP8LnrAc4ppP0XFv5zAp5Tp0LlgR3zdQMsOPdA/7W0sPLITu7us4sDt3Da",
+  secret_key_base: "saE1T3z1bfwpo6ExN5jWShlaSCDYte9FwdEg8w53VqrxxGc5PJpNb2WvKj0tQlgr",
   server: false
 
 # In test we don't send emails
